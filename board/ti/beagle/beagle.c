@@ -172,8 +172,8 @@ int misc_init_r(void)
 
 	beagle_identify();
 
-	printf("\nProbing for expansion boards, if none are connected you'll see a harmless I2C error.\n\n");
-
+	printf("\nProbing for expansion boards, if none are connected you'll see a harmless I2C error.\n");
+	printf("u-boot TAMATAR!\n\n");
 	switch (get_expansion_id()) {
 		case TINCANTOOLS_ZIPPY:
 			printf("Recognized Tincantools Zippy expansion board (rev %d %s)\n",
