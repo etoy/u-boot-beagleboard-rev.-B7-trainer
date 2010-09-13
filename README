@@ -4,3 +4,12 @@
 Customized correct pin muxing to make
 the rev. B7 Beagleboards play nicely
 with the Tincantools Trainer expansionboard
+
+Changes applied so far affect only
+the beagleboard specific code at
+board/ti/beagle/*
+
+The corresponding discussion with the 
+helpful people from the beagleboard
+community can be found here:
+http://groups.google.com/group/beagleboard/browse_thread/thread/72f6ce559309fa71
